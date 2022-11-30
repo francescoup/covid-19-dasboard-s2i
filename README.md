@@ -1,4 +1,4 @@
-### Covid 19 Dasboard</br>
+### Covid 19 Dashboard</br>
 A very usefull app where to see data about covid 19 and vaccines situation in Italy.
 ## Table of Contents
 [General info](#general-info)</br>
