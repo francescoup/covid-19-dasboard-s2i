@@ -1,0 +1,23 @@
+.table-container {
+    @apply max-sm:w-[86vw] p-6 dark:bg-cyan-800 bg-white relative w-3/5 shadow-lg rounded-lg;
+}
+
+.vtable-container {
+    @apply max-sm:w-[86vw] p-6 dark:bg-cyan-800 bg-white relative w-[100%] shadow-lg rounded-lg;
+}
+
+.table-contents {
+    @apply bg-white  dark:bg-cyan-800 relative h-96  overflow-y-scroll scrollbar-thumb-gray-300 dark:scrollbar-thumb-cyan-900  scrollbar-track-white dark:scrollbar-track-cyan-800 scrollbar-thumb-rounded scrollbar-thin;
+}
+
+.table-header {
+    @apply border-collapse table-auto w-full text-sm;
+}
+
+.table-line {
+    @apply border-b dark:border-slate-600 font-medium   pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left;
+}
+
+.table-content {
+    @apply border-b border-slate-100 dark:border-slate-700 pt-3 pb-3  text-slate-500 dark:text-slate-100;
+}

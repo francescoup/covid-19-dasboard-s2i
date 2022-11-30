@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  transition: all 0.25s ease;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+Cards::-webkit-scrollbar {
+    width: 41px;
+    height: 41px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  display:flex;
+}
+
+@import "./Components/Card/Cards.css";
+@import "./Components/Navbar/Navbar.css";
+@import "./Components/Table/Table.css";
+@import "./Components/MiniCard/MiniCard.css";
+@import "./Components/Charts/Charts.css";
+@import "./Components/PieCharts/PieCharts.css";
+@import "./Components/Sidebar/Sidebar.css";
+@import "./Components/ModalMenu/ModalMenu.css";
+@import "./Components/Loading/Loading.css";
+@import "./Components/Error/Error.css";
+@import "./Components/Footer/Footer.css";
+@import "./Screen/Pages.css"
+

@@ -1,0 +1,3 @@
+.charts-card {
+@apply max-sm:w-[86vw]  dark:bg-cyan-800 flex bg-white relative h-96 shadow-lg rounded-lg p-6 w-3/5;
+}

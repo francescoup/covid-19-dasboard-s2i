@@ -1,0 +1,17 @@
+.modal-menu {
+    @apply bg-white w-[200px] absolute top-14 right-0 z-20 rounded-xl p-2 shadow-md transition-all;
+}
+
+.open {
+    @apply opacity-100 translate-y-0;
+}
+
+.closed {
+    @apply opacity-0 -translate-y-1;
+}
+.info-links {
+    @apply gap-y-4 flex-col justify-center;
+}
+.menu-item {
+    @apply flex gap-2 items-center rounded-lg p-3 text-slate-700 hover:bg-slate-200;
+}

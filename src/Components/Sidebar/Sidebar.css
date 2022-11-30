@@ -1,0 +1,38 @@
+.sidebar-content {
+@apply flex items-center gap-4 text-gray-100 rounded-lg  p-4 mb-4 hover:bg-cyan-800 ;
+}
+
+.sidebar-items {
+    @apply flex gap-4 items-center;
+}
+.sidebar-icons {
+@apply  hover:text-slate-200 text-slate-50 text-2xl;
+}
+
+.sidebar-menu {
+@apply p-1 relative mb-4  bg-cyan-800 rounded-md transition-all;
+}
+
+.sidebar-scrollbar{
+@apply  scrollbar-thumb-cyan-900 scrollbar-track-cyan-800 scrollbar-thumb-rounded scrollbar-thin overflow-y-scroll h-72 max-sm:h-96  bg-cyan-800 p-2 overflow-auto;
+}
+
+.item-menu {
+@apply text-sm leading-5 max-sm:leading-8 cursor-pointer font-medium text-gray-300  pb-1 w-full hover:text-gray-100;
+}
+
+.sub-item-menu {
+@apply flex items-center gap-4 text-gray-100 rounded-lg mb-2 p-4 hover:bg-cyan-800;;
+}
+
+.item-color {
+@apply hover:text-slate-200 text-slate-50 transition-colors font-medium;
+}
+
+.active {
+    @apply bg-slate-700;
+}
+
+.activeLink {
+    @apply text-slate-50 ml-1;
+}
