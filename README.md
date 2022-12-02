@@ -42,7 +42,7 @@ Download [Node](https://nodejs.org/en/) and installed it on your operating syste
 1. Clone the repository on local server:
 
    ```sh
-   git clone https://github.com/francescoup/
+   git clone https://github.com/francescoup/covid-19-dashboard-s2i
    ```
 
 2. Install NPM packages:
